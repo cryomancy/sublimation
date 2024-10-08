@@ -1,5 +1,7 @@
 # Sublimation
 
+[![CI](https://github.com/TahlonBrahic/sublimation/actions/workflows/main.yml/badge.svg)](https://github.com/TahlonBrahic/sublimation/actions/workflows/main.yml)
+
 'Transition of a substance directly from the solid to the gas state'
 
 ## Summary
