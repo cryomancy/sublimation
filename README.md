@@ -15,6 +15,11 @@ Sublimation = Solid (Flake) -> Gas (Steam)
 - [Usage](#usage)
 <!-- /TOC -->
 
+## Project managers
+@SpiderUnderUrBed
+@TahlonBrahic
+
+## Maintainers
 
 ## Usage
 TODO
@@ -24,6 +29,14 @@ TODO
 
 ### Install with Flakes
 TODO
+
+1. Add sublimation as a input 
+2. import it as a module
+```
+        modules = [
+          sublimation.homeManagerModules.sublimation
+        ]
+```
 
 ### Install for NixOS 
 TODO
