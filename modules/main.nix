@@ -2,7 +2,7 @@
 
 with import <nixpkgs> {};
 let
-  cfg = config.programs.wallpaper-changer;
+  cfg = config.programs.sublimation;
   script = pkgs.writeShellApplication {
     name = "main";
     #TODO add runtime inputs
