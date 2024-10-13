@@ -29,14 +29,14 @@
         imports = [ ./modules ];
       };
 
-      #TODO Decide wheter or not to impliment packages
+      #TODO Decide wheter or not to implement packages
       packages = forAllSystems (system:
         let pkgs = nixpkgsFor.${system}; in
         {
 
         });
 
-      #TODO Decide wheter or not to impliment apps
+      #TODO Decide wheter or not to implement apps
       apps = forAllSystems (system: {
         #default = self.apps.${system}.;
       });
