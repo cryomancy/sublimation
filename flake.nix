@@ -1,5 +1,5 @@
 {
-  description = "Lets users automatically change wallpapers";
+  description = "Declare your Steam library with Nix";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-23.11";
