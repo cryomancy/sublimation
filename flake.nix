@@ -10,6 +10,10 @@
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+
+    eris = {
+      url = "github:TahlonBrahic/eris";
+    };
   };
 
   outputs = inputs @ {nixpkgs, ...}: {
