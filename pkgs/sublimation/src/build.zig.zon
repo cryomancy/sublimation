@@ -1,0 +1,10 @@
+.{
+    .name = "sublimation",
+    .version = "0.0.1",
+    .dependencies = .{
+        .jzignet = .{
+            .url = "https://git.sr.ht/~greenfork/jzignet/archive/0.7.2.tar.gz",
+            .hash = "122087fa45b016bd8ce5fbadd17ef2bd84cd1389119edd3c345486870032ea2b7217",
+        },
+    },
+}
