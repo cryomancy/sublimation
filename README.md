@@ -22,14 +22,9 @@ Sublimation = Solid (Flake) -> Gas (Steam)
 ## Maintainers
 
 ## Usage
-TODO
-
-### Continuous Integration
-TODO
+Given the restricted nature of steam, this does **NOT** install the games for you. Instead, this acts as a declarative link farm to a given directory. This can also be used to build mods for games as you would with Nix.
 
 ### Install with Flakes
-TODO
-
 1. Add sublimation as a input 
 2. import it as a module
 ```
@@ -37,6 +32,3 @@ TODO
           sublimation.homeManagerModules.sublimation
         ]
 ```
-
-### Install for NixOS 
-TODO
