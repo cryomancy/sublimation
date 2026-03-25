@@ -16,9 +16,20 @@
     };
   };
 
-  outputs = inputs @ {nixpkgs, ...}: {
-    homeManagerModules.sublimation = _: {
-      imports = [./modules];
+  outputs =
+    { nixpkgs, ... }:
+    {
+      devShells.x86_64-linux.default =
+        let
+          pkgs = nixpkgs.legacyPackages.x86_64-linux;
+        in
+        pkgs.mkShell {
+          packages = with pkgs; [
+            zig_0_13
+          ];
+        };
+      homeManagerModules.sublimation = _: {
+        imports = [ ./modules ];
+      };
     };
-  };
 }
